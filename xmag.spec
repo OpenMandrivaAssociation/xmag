@@ -8,6 +8,7 @@ Source1: xmag.xpm
 Source2: xmag.xpm.large
 Source3: xmag.xpm.mini
 License: MIT
+BuildRoot: %{_tmppath}/%{name}-root
 
 BuildRequires: libxt-devel >= 1.0.0
 BuildRequires: libxaw-devel >= 1.0.1
