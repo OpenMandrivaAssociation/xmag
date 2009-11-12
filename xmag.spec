@@ -14,14 +14,11 @@ BuildRequires: libxt-devel >= 1.0.0
 BuildRequires: libxaw-devel >= 1.0.1
 BuildRequires: x11-util-macros >= 1.0.1
 
-Patch1: 0001-Properly-handle-multiple-depth-windows.patch
-
 %description
 The xmag program allows you to magnify portions of an X screen.
 
 %prep
 %setup -q -n %{name}-%{version}
-%patch1 -p1
 
 %build
 %configure2_5x
