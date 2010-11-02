@@ -1,5 +1,5 @@
 Name: xmag
-Version: 1.0.3
+Version: 1.0.4
 Release: %mkrel 1
 Summary: Magnify parts of the screen
 Group: Development/X11
