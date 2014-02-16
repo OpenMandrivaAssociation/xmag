@@ -10,7 +10,7 @@ Source3: xmag.xpm.mini
 License: MIT
 
 BuildRequires: libxt-devel >= 1.0.0
-BuildRequires: libxaw-devel >= 1.0.1
+BuildRequires: pkgconfig(xaw7)
 BuildRequires: x11-util-macros >= 1.0.1
 
 %description
