@@ -1,9 +1,9 @@
 Name: xmag
-Version: 1.0.6
-Release: 3
+Version: 1.0.7
+Release: 1
 Summary: Magnify parts of the screen
 Group: Development/X11
-Source0: http://xorg.freedesktop.org/releases/individual/app/%{name}-%{version}.tar.bz2
+Source0: http://xorg.freedesktop.org/releases/individual/app/%{name}-%{version}.tar.xz
 Source1: xmag.xpm
 Source2: xmag.xpm.large
 Source3: xmag.xpm.mini
@@ -21,10 +21,10 @@ The xmag program allows you to magnify portions of an X screen.
 
 %build
 %configure
-%make
+%make_build
 
 %install
-%makeinstall_std
+%make_install
 
 # install icons
 mkdir -p %{buildroot}%{_datadir}/icons/large
