@@ -1,9 +1,9 @@
 Name: xmag
-Version: 1.0.7
-Release: 2
+Version: 1.0.8
+Release: 1
 Summary: Magnify parts of the screen
 Group: Development/X11
-Source0: http://xorg.freedesktop.org/releases/individual/app/%{name}-%{version}.tar.xz
+Source0: https://xorg.freedesktop.org/releases/individual/app/%{name}-%{version}.tar.xz
 Source1: xmag.xpm
 Source2: xmag.xpm.large
 Source3: xmag.xpm.mini
