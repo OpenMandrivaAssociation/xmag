@@ -9,6 +9,11 @@ Source2: xmag.xpm.large
 Source3: xmag.xpm.mini
 License: MIT
 
+BuildRequires:	autoconf
+BuildRequires:	automake
+BuildRequires:	libtool-base
+BuildRequires:	slibtool
+BuildRequires:	make
 BuildRequires: pkgconfig(xt) >= 1.0.0
 BuildRequires: xaw-devel >= 1.0.1
 BuildRequires: pkgconfig(xorg-macros) >= 1.0.1
